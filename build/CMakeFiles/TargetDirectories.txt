@@ -1,0 +1,4 @@
+C:/Users/20757/Desktop/lvgl_pc_simulator/build/CMakeFiles/main.dir
+C:/Users/20757/Desktop/lvgl_pc_simulator/build/CMakeFiles/run.dir
+C:/Users/20757/Desktop/lvgl_pc_simulator/build/CMakeFiles/edit_cache.dir
+C:/Users/20757/Desktop/lvgl_pc_simulator/build/CMakeFiles/rebuild_cache.dir
