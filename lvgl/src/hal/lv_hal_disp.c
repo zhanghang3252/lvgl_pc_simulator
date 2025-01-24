@@ -85,7 +85,7 @@ void lv_disp_drv_init(lv_disp_drv_t * driver)
 {
     lv_memset_00(driver, sizeof(lv_disp_drv_t));
 
-    driver->hor_res          = 320;
+    driver->hor_res          = 280;
     driver->ver_res          = 240;
     driver->physical_hor_res = -1;
     driver->physical_ver_res = -1;

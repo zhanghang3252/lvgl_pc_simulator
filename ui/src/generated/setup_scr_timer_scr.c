@@ -58,8 +58,8 @@ void setup_scr_timer_scr(lv_ui *ui)
     static bool timer_scr_digital_clock_1_timer_enabled = false;
     ui->timer_scr_digital_clock_1 = lv_dclock_create(ui->timer_scr, "11:25:50");
     if (!timer_scr_digital_clock_1_timer_enabled) {
-         //lv_timer_create(timer_scr_digital_clock_1_timer, 1000, NULL);
-        timer_scr_digital_clock_1_timer_enabled = true;
+        // lv_timer_create(timer_scr_digital_clock_1_timer, 1000, NULL);
+        // timer_scr_digital_clock_1_timer_enabled = true;
     }
     lv_obj_set_pos(ui->timer_scr_digital_clock_1, 0, 44);
     lv_obj_set_size(ui->timer_scr_digital_clock_1, 240, 74);
