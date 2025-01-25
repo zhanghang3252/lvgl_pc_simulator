@@ -4436,11 +4436,26 @@ CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.s"
 	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\guider_fonts\lv_font_montserratMedium_47.c -o CMakeFiles\main.dir\ui\src\generated\guider_fonts\lv_font_montserratMedium_47.c.s
 
+CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj: CMakeFiles/main.dir/includes_C.rsp
+CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj: C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/images/_xs_alpha_50x50.c
+CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj"
+	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj -MF CMakeFiles\main.dir\ui\src\generated\images\_xs_alpha_50x50.c.obj.d -o CMakeFiles\main.dir\ui\src\generated\images\_xs_alpha_50x50.c.obj -c C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\images\_xs_alpha_50x50.c
+
+CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.i"
+	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\images\_xs_alpha_50x50.c > CMakeFiles\main.dir\ui\src\generated\images\_xs_alpha_50x50.c.i
+
+CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.s"
+	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\images\_xs_alpha_50x50.c -o CMakeFiles\main.dir\ui\src\generated\images\_xs_alpha_50x50.c.s
+
 CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj: C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_led_scr.c
 CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj"
 	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj -MF CMakeFiles\main.dir\ui\src\generated\setup_scr_led_scr.c.obj.d -o CMakeFiles\main.dir\ui\src\generated\setup_scr_led_scr.c.obj -c C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\setup_scr_led_scr.c
 
 CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.i: cmake_force
@@ -4455,7 +4470,7 @@ CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj: CMakeFiles/main.
 CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj: C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_timer_scr.c
 CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj"
 	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj -MF CMakeFiles\main.dir\ui\src\generated\setup_scr_timer_scr.c.obj.d -o CMakeFiles\main.dir\ui\src\generated\setup_scr_timer_scr.c.obj -c C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\setup_scr_timer_scr.c
 
 CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.i: cmake_force
@@ -4466,11 +4481,26 @@ CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.s"
 	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\setup_scr_timer_scr.c -o CMakeFiles\main.dir\ui\src\generated\setup_scr_timer_scr.c.s
 
+CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj: CMakeFiles/main.dir/includes_C.rsp
+CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj: C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_tz_scr.c
+CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj"
+	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj -MF CMakeFiles\main.dir\ui\src\generated\setup_scr_tz_scr.c.obj.d -o CMakeFiles\main.dir\ui\src\generated\setup_scr_tz_scr.c.obj -c C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\setup_scr_tz_scr.c
+
+CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.i"
+	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\setup_scr_tz_scr.c > CMakeFiles\main.dir\ui\src\generated\setup_scr_tz_scr.c.i
+
+CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.s"
+	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\setup_scr_tz_scr.c -o CMakeFiles\main.dir\ui\src\generated\setup_scr_tz_scr.c.s
+
 CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj: C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/widgets_init.c
 CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj"
 	C:\APP\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj -MF CMakeFiles\main.dir\ui\src\generated\widgets_init.c.obj.d -o CMakeFiles\main.dir\ui\src\generated\widgets_init.c.obj -c C:\Users\20757\Desktop\lvgl_pc_simulator\ui\src\generated\widgets_init.c
 
 CMakeFiles/main.dir/ui/src/generated/widgets_init.c.i: cmake_force
@@ -4774,8 +4804,10 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_27.c.obj" \
 "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_32.c.obj" \
 "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.obj" \
+"CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj" \
 "CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj" \
 "CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj" \
+"CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj" \
 "CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj"
 
 # External object files for target main
@@ -5072,14 +5104,16 @@ C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/sr
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_27.c.obj
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_32.c.obj
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.obj
+C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj
+C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/build.make
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Linking C executable C:\Users\20757\Desktop\lvgl_pc_simulator\bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\20757\Desktop\lvgl_pc_simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Linking C executable C:\Users\20757\Desktop\lvgl_pc_simulator\bin\main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

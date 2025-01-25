@@ -1747,6 +1747,12 @@
 },
 {
   "directory": "C:/Users/20757/Desktop/lvgl_pc_simulator/build",
+  "command": "C:\\APP\\mingw\\bin\\gcc.exe -DLV_CONF_INCLUDE_SIMPLE @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\ui\\src\\generated\\images\\_xs_alpha_50x50.c.obj -c C:\\Users\\20757\\Desktop\\lvgl_pc_simulator\\ui\\src\\generated\\images\\_xs_alpha_50x50.c",
+  "file": "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/images/_xs_alpha_50x50.c",
+  "output": "CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj"
+},
+{
+  "directory": "C:/Users/20757/Desktop/lvgl_pc_simulator/build",
   "command": "C:\\APP\\mingw\\bin\\gcc.exe -DLV_CONF_INCLUDE_SIMPLE @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\ui\\src\\generated\\setup_scr_led_scr.c.obj -c C:\\Users\\20757\\Desktop\\lvgl_pc_simulator\\ui\\src\\generated\\setup_scr_led_scr.c",
   "file": "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_led_scr.c",
   "output": "CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj"
@@ -1756,6 +1762,12 @@
   "command": "C:\\APP\\mingw\\bin\\gcc.exe -DLV_CONF_INCLUDE_SIMPLE @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\ui\\src\\generated\\setup_scr_timer_scr.c.obj -c C:\\Users\\20757\\Desktop\\lvgl_pc_simulator\\ui\\src\\generated\\setup_scr_timer_scr.c",
   "file": "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_timer_scr.c",
   "output": "CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj"
+},
+{
+  "directory": "C:/Users/20757/Desktop/lvgl_pc_simulator/build",
+  "command": "C:\\APP\\mingw\\bin\\gcc.exe -DLV_CONF_INCLUDE_SIMPLE @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\ui\\src\\generated\\setup_scr_tz_scr.c.obj -c C:\\Users\\20757\\Desktop\\lvgl_pc_simulator\\ui\\src\\generated\\setup_scr_tz_scr.c",
+  "file": "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_tz_scr.c",
+  "output": "CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj"
 },
 {
   "directory": "C:/Users/20757/Desktop/lvgl_pc_simulator/build",

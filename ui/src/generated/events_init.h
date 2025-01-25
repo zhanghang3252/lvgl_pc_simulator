@@ -20,6 +20,7 @@ void events_init(lv_ui *ui);
 
 void events_init_timer_scr(lv_ui *ui);
 void events_init_led_scr(lv_ui *ui);
+void events_init_tz_scr(lv_ui *ui);
 
 #ifdef __cplusplus
 }

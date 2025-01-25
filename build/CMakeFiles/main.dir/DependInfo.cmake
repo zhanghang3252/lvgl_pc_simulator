@@ -299,8 +299,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/guider_fonts/lv_font_montserratMedium_27.c" "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_27.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_27.c.obj.d"
   "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/guider_fonts/lv_font_montserratMedium_32.c" "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_32.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_32.c.obj.d"
   "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c" "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.obj.d"
+  "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/images/_xs_alpha_50x50.c" "CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj.d"
   "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_led_scr.c" "CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/setup_scr_led_scr.c.obj.d"
   "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_timer_scr.c" "CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.obj.d"
+  "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/setup_scr_tz_scr.c" "CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj.d"
   "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/widgets_init.c" "CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj" "gcc" "CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj.d"
   )
 

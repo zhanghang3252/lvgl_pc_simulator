@@ -75,6 +75,7 @@ void init_scr_del_flag(lv_ui *ui)
 
     ui->timer_scr_del = true;
     ui->led_scr_del = true;
+    ui->tz_scr_del = true;
 }
 
 void setup_ui(lv_ui *ui)

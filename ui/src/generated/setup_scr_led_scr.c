@@ -76,7 +76,7 @@ void setup_scr_led_scr(lv_ui *ui)
 
     //Write codes led_scr_led_1
     ui->led_scr_led_1 = lv_led_create(ui->led_scr);
-    lv_led_set_brightness(ui->led_scr_led_1, 255);
+    lv_led_set_brightness(ui->led_scr_led_1, 0);
     lv_led_set_color(ui->led_scr_led_1, lv_color_hex(0x2195f6));
     lv_obj_set_pos(ui->led_scr_led_1, 101, 95);
     lv_obj_set_size(ui->led_scr_led_1, 40, 40);

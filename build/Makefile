@@ -7125,6 +7125,30 @@ ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.s
 .PHONY : ui/src/generated/guider_fonts/lv_font_montserratMedium_47.c.s
 
+ui/src/generated/images/_xs_alpha_50x50.obj: ui/src/generated/images/_xs_alpha_50x50.c.obj
+.PHONY : ui/src/generated/images/_xs_alpha_50x50.obj
+
+# target to build an object file
+ui/src/generated/images/_xs_alpha_50x50.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.obj
+.PHONY : ui/src/generated/images/_xs_alpha_50x50.c.obj
+
+ui/src/generated/images/_xs_alpha_50x50.i: ui/src/generated/images/_xs_alpha_50x50.c.i
+.PHONY : ui/src/generated/images/_xs_alpha_50x50.i
+
+# target to preprocess a source file
+ui/src/generated/images/_xs_alpha_50x50.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.i
+.PHONY : ui/src/generated/images/_xs_alpha_50x50.c.i
+
+ui/src/generated/images/_xs_alpha_50x50.s: ui/src/generated/images/_xs_alpha_50x50.c.s
+.PHONY : ui/src/generated/images/_xs_alpha_50x50.s
+
+# target to generate assembly for a file
+ui/src/generated/images/_xs_alpha_50x50.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/images/_xs_alpha_50x50.c.s
+.PHONY : ui/src/generated/images/_xs_alpha_50x50.c.s
+
 ui/src/generated/setup_scr_led_scr.obj: ui/src/generated/setup_scr_led_scr.c.obj
 .PHONY : ui/src/generated/setup_scr_led_scr.obj
 
@@ -7172,6 +7196,30 @@ ui/src/generated/setup_scr_timer_scr.s: ui/src/generated/setup_scr_timer_scr.c.s
 ui/src/generated/setup_scr_timer_scr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/setup_scr_timer_scr.c.s
 .PHONY : ui/src/generated/setup_scr_timer_scr.c.s
+
+ui/src/generated/setup_scr_tz_scr.obj: ui/src/generated/setup_scr_tz_scr.c.obj
+.PHONY : ui/src/generated/setup_scr_tz_scr.obj
+
+# target to build an object file
+ui/src/generated/setup_scr_tz_scr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj
+.PHONY : ui/src/generated/setup_scr_tz_scr.c.obj
+
+ui/src/generated/setup_scr_tz_scr.i: ui/src/generated/setup_scr_tz_scr.c.i
+.PHONY : ui/src/generated/setup_scr_tz_scr.i
+
+# target to preprocess a source file
+ui/src/generated/setup_scr_tz_scr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.i
+.PHONY : ui/src/generated/setup_scr_tz_scr.c.i
+
+ui/src/generated/setup_scr_tz_scr.s: ui/src/generated/setup_scr_tz_scr.c.s
+.PHONY : ui/src/generated/setup_scr_tz_scr.s
+
+# target to generate assembly for a file
+ui/src/generated/setup_scr_tz_scr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.s
+.PHONY : ui/src/generated/setup_scr_tz_scr.c.s
 
 ui/src/generated/widgets_init.obj: ui/src/generated/widgets_init.c.obj
 .PHONY : ui/src/generated/widgets_init.obj
@@ -8080,12 +8128,18 @@ help:
 	@echo ... ui/src/generated/guider_fonts/lv_font_montserratMedium_47.obj
 	@echo ... ui/src/generated/guider_fonts/lv_font_montserratMedium_47.i
 	@echo ... ui/src/generated/guider_fonts/lv_font_montserratMedium_47.s
+	@echo ... ui/src/generated/images/_xs_alpha_50x50.obj
+	@echo ... ui/src/generated/images/_xs_alpha_50x50.i
+	@echo ... ui/src/generated/images/_xs_alpha_50x50.s
 	@echo ... ui/src/generated/setup_scr_led_scr.obj
 	@echo ... ui/src/generated/setup_scr_led_scr.i
 	@echo ... ui/src/generated/setup_scr_led_scr.s
 	@echo ... ui/src/generated/setup_scr_timer_scr.obj
 	@echo ... ui/src/generated/setup_scr_timer_scr.i
 	@echo ... ui/src/generated/setup_scr_timer_scr.s
+	@echo ... ui/src/generated/setup_scr_tz_scr.obj
+	@echo ... ui/src/generated/setup_scr_tz_scr.i
+	@echo ... ui/src/generated/setup_scr_tz_scr.s
 	@echo ... ui/src/generated/widgets_init.obj
 	@echo ... ui/src/generated/widgets_init.i
 	@echo ... ui/src/generated/widgets_init.s

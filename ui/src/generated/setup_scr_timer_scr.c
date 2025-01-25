@@ -57,10 +57,10 @@ void setup_scr_timer_scr(lv_ui *ui)
     //Write codes timer_scr_digital_clock_1
     static bool timer_scr_digital_clock_1_timer_enabled = false;
     ui->timer_scr_digital_clock_1 = lv_dclock_create(ui->timer_scr, "11:25:50");
-    if (!timer_scr_digital_clock_1_timer_enabled) {
-        // lv_timer_create(timer_scr_digital_clock_1_timer, 1000, NULL);
-        // timer_scr_digital_clock_1_timer_enabled = true;
-    }
+    // if (!timer_scr_digital_clock_1_timer_enabled) {
+    //     lv_timer_create(timer_scr_digital_clock_1_timer, 1000, NULL);
+    //     timer_scr_digital_clock_1_timer_enabled = true;
+    // }
     lv_obj_set_pos(ui->timer_scr_digital_clock_1, 0, 44);
     lv_obj_set_size(ui->timer_scr_digital_clock_1, 240, 74);
 
@@ -77,24 +77,6 @@ void setup_scr_timer_scr(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->timer_scr_digital_clock_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->timer_scr_digital_clock_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->timer_scr_digital_clock_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes timer_scr_cont_1
-    ui->timer_scr_cont_1 = lv_obj_create(ui->timer_scr);
-    lv_obj_set_pos(ui->timer_scr_cont_1, 40, 120);
-    lv_obj_set_size(ui->timer_scr_cont_1, 171, 104);
-    lv_obj_set_scrollbar_mode(ui->timer_scr_cont_1, LV_SCROLLBAR_MODE_OFF);
-
-    //Write style for timer_scr_cont_1, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->timer_scr_cont_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->timer_scr_cont_1, 19, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->timer_scr_cont_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->timer_scr_cont_1, lv_color_hex(0x009bff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->timer_scr_cont_1, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->timer_scr_cont_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->timer_scr_cont_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->timer_scr_cont_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->timer_scr_cont_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->timer_scr_cont_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes timer_scr_textprogress_1
     ui->timer_scr_textprogress_1 = lv_textprogress_create(ui->timer_scr);

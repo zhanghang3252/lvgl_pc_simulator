@@ -22,7 +22,6 @@ typedef struct
 	bool timer_scr_del;
 	lv_obj_t *timer_scr_datetext_1;
 	lv_obj_t *timer_scr_digital_clock_1;
-	lv_obj_t *timer_scr_cont_1;
 	lv_obj_t *timer_scr_textprogress_1;
 	lv_obj_t *timer_scr_bar_power;
 	lv_obj_t *led_scr;
@@ -32,6 +31,10 @@ typedef struct
 	lv_obj_t *led_scr_btn_close;
 	lv_obj_t *led_scr_btn_close_label;
 	lv_obj_t *led_scr_led_1;
+	lv_obj_t *tz_scr;
+	bool tz_scr_del;
+	lv_obj_t *tz_scr_img_1;
+	lv_obj_t *tz_scr_label_message;
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -56,6 +59,8 @@ extern lv_ui guider_ui;
 
 void setup_scr_timer_scr(lv_ui *ui);
 void setup_scr_led_scr(lv_ui *ui);
+void setup_scr_tz_scr(lv_ui *ui);
+LV_IMG_DECLARE(_xs_alpha_50x50);
 
 LV_FONT_DECLARE(lv_font_montserratMedium_12)
 LV_FONT_DECLARE(lv_font_montserratMedium_16)
