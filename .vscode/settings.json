@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "lvgl.h": "c",
+        "gui_guider.h": "c",
+        "stdio.h": "c",
+        "custom.h": "c",
+        "events_init.h": "c",
+        "widgets_init.h": "c"
+    }
+}

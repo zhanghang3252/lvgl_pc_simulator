@@ -12,12 +12,14 @@ file(GLOB_RECURSE INCLUDES
     "lvgl/*.h"
     "./*.h"
     "ui/src/*.h"
+    "user/*.h"
 )
 file(GLOB_RECURSE SOURCES  
     "lv_drivers/*.c"
     "lvgl/demos/*.c"
     "lvgl/src/*.c"
     "ui/src/*.c"
+    "user/*.c"
     
 )
 

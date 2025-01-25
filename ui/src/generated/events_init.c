@@ -10,12 +10,12 @@
 #include "events_init.h"
 #include <stdio.h>
 #include "lvgl/lvgl.h"
-
+#include "user/link_list.h"
 #if LV_USE_GUIDER_SIMULATOR && LV_USE_FREEMASTER
 #include "freemaster_client.h"
 #endif
 
-
+LinkList *lvgl_link_list;
 static void timer_scr_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -27,13 +27,15 @@ static void timer_scr_event_handler (lv_event_t *e)
         case LV_DIR_LEFT:
         {
             lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.led_scr, guider_ui.led_scr_del, &guider_ui.timer_scr_del, setup_scr_led_scr, LV_SCR_LOAD_ANIM_MOVE_LEFT, 200, 0, false, false);
+            ui_load_scr_animation(&guider_ui, &lvgl_link_list->next->lvgl_scr,lvgl_link_list->next->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->next->setup_scr, LV_SCR_LOAD_ANIM_OVER_LEFT, 200, 0, false, false);
+            lvgl_link_list=lvgl_link_list->next;
             break;
         }
         case LV_DIR_RIGHT:
         {
             lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.led_scr, guider_ui.led_scr_del, &guider_ui.timer_scr_del, setup_scr_led_scr, LV_SCR_LOAD_ANIM_MOVE_RIGHT, 200, 0, false, false);
+            ui_load_scr_animation(&guider_ui, &lvgl_link_list->on->lvgl_scr,lvgl_link_list->on->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->on->setup_scr, LV_SCR_LOAD_ANIM_OVER_RIGHT, 200, 0, false, false);
+            lvgl_link_list=lvgl_link_list->on;
             break;
         }
         case LV_DIR_BOTTOM:
@@ -68,13 +70,15 @@ static void led_scr_event_handler (lv_event_t *e)
         case LV_DIR_LEFT:
         {
             lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.timer_scr, guider_ui.timer_scr_del, &guider_ui.led_scr_del, setup_scr_timer_scr, LV_SCR_LOAD_ANIM_MOVE_LEFT, 200, 0, false, false);
+            ui_load_scr_animation(&guider_ui, &lvgl_link_list->next->lvgl_scr,lvgl_link_list->next->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->next->setup_scr, LV_SCR_LOAD_ANIM_OVER_LEFT, 200, 0, false, false);
+            lvgl_link_list=lvgl_link_list->next;
             break;
         }
         case LV_DIR_RIGHT:
         {
             lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.timer_scr, guider_ui.timer_scr_del, &guider_ui.led_scr_del, setup_scr_timer_scr, LV_SCR_LOAD_ANIM_MOVE_RIGHT, 200, 0, false, false);
+            ui_load_scr_animation(&guider_ui, &lvgl_link_list->on->lvgl_scr,lvgl_link_list->on->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->on->setup_scr, LV_SCR_LOAD_ANIM_OVER_RIGHT, 200, 0, false, false);
+            lvgl_link_list=lvgl_link_list->on;
             break;
         }
         case LV_DIR_BOTTOM:
@@ -99,11 +103,7 @@ static void led_scr_btn_open_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
-        lv_led_set_brightness(guider_ui.led_scr_led_1, 255);
-        break;
-    }
-    case LV_EVENT_LONG_PRESSED_REPEAT:
-    {
+        printf("OPEN LED\r\n");
         lv_led_set_brightness(guider_ui.led_scr_led_1, 255);
         break;
     }
@@ -118,11 +118,7 @@ static void led_scr_btn_close_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
-        lv_led_set_brightness(guider_ui.led_scr_led_1, 0);
-        break;
-    }
-    case LV_EVENT_LONG_PRESSED_REPEAT:
-    {
+        printf("CLOSE LED\r\n");
         lv_led_set_brightness(guider_ui.led_scr_led_1, 0);
         break;
     }

@@ -82,5 +82,6 @@ void setup_ui(lv_ui *ui)
 {
     init_scr_del_flag(ui);
     setup_scr_timer_scr(ui);
+    setup_scr_led_scr(ui);
     lv_scr_load(ui->timer_scr);
 }

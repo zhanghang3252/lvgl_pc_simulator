@@ -24,6 +24,7 @@ typedef struct
 	lv_obj_t *timer_scr_digital_clock_1;
 	lv_obj_t *timer_scr_textprogress_1;
 	lv_obj_t *timer_scr_bar_power;
+
 	lv_obj_t *led_scr;
 	bool led_scr_del;
 	lv_obj_t *led_scr_btn_open;
@@ -32,6 +33,7 @@ typedef struct
 	lv_obj_t *led_scr_btn_close_label;
 	lv_obj_t *led_scr_led_1;
 	lv_obj_t *tz_scr;
+
 	bool tz_scr_del;
 	lv_obj_t *tz_scr_img_1;
 	lv_obj_t *tz_scr_label_message;
