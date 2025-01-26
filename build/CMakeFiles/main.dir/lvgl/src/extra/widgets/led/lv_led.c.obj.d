@@ -259,4 +259,9 @@ CMakeFiles/main.dir/lvgl/src/extra/widgets/led/lv_led.c.obj: \
  C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lvgl.h \
  C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/widgets/lv_dclock.h \
  C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/widgets/lv_textprogress.h \
+ C:/APP/mingw/x86_64-w64-mingw32/include/stdio.h \
+ C:/APP/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/APP/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/APP/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/APP/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h

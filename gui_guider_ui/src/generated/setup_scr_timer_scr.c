@@ -12,7 +12,7 @@
 #include "gui_guider.h"
 #include "events_init.h"
 #include "widgets_init.h"
-#include "ui/src/custom/custom.h"
+#include "gui_guider_ui/src/custom/custom.h"
 
 
 
@@ -129,5 +129,5 @@ void setup_scr_timer_scr(lv_ui *ui)
     lv_obj_update_layout(ui->timer_scr);
 
     //Init events for screen.
-    events_init_timer_scr(ui);
+    // events_init_timer_scr(ui);
 }

@@ -1,5 +1,5 @@
 /*
-* Copyright 2023 NXP
+* Copyright 2025 NXP
 * NXP Proprietary. This software is owned or controlled by NXP and may only be used strictly in
 * accordance with the applicable license terms. By expressly accepting such terms or by downloading, installing,
 * activating and/or otherwise using the software, you are agreeing that you have read, and that you agree to
@@ -7,16 +7,21 @@
 * terms, then you may not retain, install, activate or otherwise use the software.
 */
 
-#ifndef __CUSTOM_H_
-#define __CUSTOM_H_
+
+#ifndef EVENTS_INIT_H_
+#define EVENTS_INIT_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "ui/src/generated/gui_guider.h"
+#include "gui_guider.h"
 
-void custom_init(lv_ui *ui);
+void events_init(lv_ui *ui);
 
+void events_init_timer_scr(lv_ui *ui);
+void events_init_led_scr(lv_ui *ui);
+void events_init_tz_scr(lv_ui *ui);
+void events_init_watch_scr(lv_ui *ui);
 #ifdef __cplusplus
 }
 #endif

@@ -11,14 +11,15 @@ file(GLOB_RECURSE INCLUDES
     "lvgl/demos/*.h"
     "lvgl/*.h"
     "./*.h"
-    "ui/src/*.h"
+    "gui_guider_ui/src/*.h"
     "user/*.h"
 )
 file(GLOB_RECURSE SOURCES  
     "lv_drivers/*.c"
     "lvgl/demos/*.c"
     "lvgl/src/*.c"
-    "ui/src/*.c"
+    "gui_guider_ui/src/*.c"
+    "gui_guider_ui/src/generated/*.c"
     "user/*.c"
     
 )
@@ -28,7 +29,8 @@ SET(CMAKE_CXX_FLAGS "-O3")
 
 find_package(SDL2 REQUIRED SDL2)
 include_directories(${SDL2_INCLUDE_DIRS})
-add_executable(main main.c mouse_cursor_icon.c hal_init.c ${SOURCES} ${INCLUDES})
+add_executable(main main.c mouse_cursor_icon.c hal_init.c ${SOURCES} ${INCLUDES}
+        )
 
 
 file(COPY SDL2.dll DESTINATION ${PROJECT_SOURCE_DIR}/bin)

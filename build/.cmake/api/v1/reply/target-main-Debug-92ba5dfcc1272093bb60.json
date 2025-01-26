@@ -31,19 +31,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 35,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 33,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -55,7 +55,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 28,
+				"line" : 30,
 				"parent" : 0
 			}
 		]
@@ -393,7 +393,8 @@
 				292,
 				293,
 				294,
-				295
+				295,
+				296
 			]
 		}
 	],
@@ -730,14 +731,14 @@
 				292,
 				293,
 				294,
-				295
+				295,
+				296
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				296,
 				297,
 				298,
 				299,
@@ -990,7 +991,9 @@
 				546,
 				547,
 				548,
-				549
+				549,
+				550,
+				551
 			]
 		}
 	],
@@ -2774,6 +2777,12 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "user/link_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "lv_conf.h",
 			"sourceGroupIndex" : 1
 		},
@@ -4040,6 +4049,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "ui/src/generated/widgets_init.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "user/link_list.h",
 			"sourceGroupIndex" : 1
 		}
 	],

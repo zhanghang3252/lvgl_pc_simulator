@@ -15,6 +15,7 @@ CSRCS += lv_table.c
 CSRCS += lv_textarea.c
 CSRCS += lv_textprogress.c
 CSRCS += lv_dclock.c
+CSRCS += lv_analogclock.c
 
 DEPPATH += --dep-path $(LVGL_DIR)/$(LVGL_DIR_NAME)/src/widgets
 VPATH += :$(LVGL_DIR)/$(LVGL_DIR_NAME)/src/widgets

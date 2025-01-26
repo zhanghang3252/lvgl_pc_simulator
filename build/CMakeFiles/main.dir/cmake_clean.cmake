@@ -595,6 +595,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/ui/src/generated/setup_scr_tz_scr.c.obj.d"
   "CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj"
   "CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj.d"
+  "CMakeFiles/main.dir/user/link_list.c.obj"
+  "CMakeFiles/main.dir/user/link_list.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

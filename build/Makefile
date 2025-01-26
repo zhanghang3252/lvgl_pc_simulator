@@ -7245,6 +7245,30 @@ ui/src/generated/widgets_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/ui/src/generated/widgets_init.c.s
 .PHONY : ui/src/generated/widgets_init.c.s
 
+user/link_list.obj: user/link_list.c.obj
+.PHONY : user/link_list.obj
+
+# target to build an object file
+user/link_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/user/link_list.c.obj
+.PHONY : user/link_list.c.obj
+
+user/link_list.i: user/link_list.c.i
+.PHONY : user/link_list.i
+
+# target to preprocess a source file
+user/link_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/user/link_list.c.i
+.PHONY : user/link_list.c.i
+
+user/link_list.s: user/link_list.c.s
+.PHONY : user/link_list.s
+
+# target to generate assembly for a file
+user/link_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/user/link_list.c.s
+.PHONY : user/link_list.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -8143,6 +8167,9 @@ help:
 	@echo ... ui/src/generated/widgets_init.obj
 	@echo ... ui/src/generated/widgets_init.i
 	@echo ... ui/src/generated/widgets_init.s
+	@echo ... user/link_list.obj
+	@echo ... user/link_list.i
+	@echo ... user/link_list.s
 .PHONY : help
 
 

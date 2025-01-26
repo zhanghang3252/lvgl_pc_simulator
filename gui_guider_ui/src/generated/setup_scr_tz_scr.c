@@ -12,7 +12,7 @@
 #include "gui_guider.h"
 #include "events_init.h"
 #include "widgets_init.h"
-#include "ui/src/custom/custom.h"
+#include "gui_guider_ui/src/custom/custom.h"
 
 
 
@@ -74,5 +74,5 @@ void setup_scr_tz_scr(lv_ui *ui)
     lv_obj_update_layout(ui->tz_scr);
 
     //Init events for screen.
-    events_init_tz_scr(ui);
+    // events_init_tz_scr(ui);
 }

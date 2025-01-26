@@ -6,7 +6,7 @@
 #define LINK_LIST_H
 #include "stdlib.h"
 #include "lvgl/lvgl.h"
-#include "ui/src/generated/gui_guider.h"
+#include "gui_guider_ui/src/generated/gui_guider.h"
 typedef struct student{
     /*-链表必须设置项-*/
     uint8_t id;//屏幕ID

@@ -1774,5 +1774,11 @@
   "command": "C:\\APP\\mingw\\bin\\gcc.exe -DLV_CONF_INCLUDE_SIMPLE @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\ui\\src\\generated\\widgets_init.c.obj -c C:\\Users\\20757\\Desktop\\lvgl_pc_simulator\\ui\\src\\generated\\widgets_init.c",
   "file": "C:/Users/20757/Desktop/lvgl_pc_simulator/ui/src/generated/widgets_init.c",
   "output": "CMakeFiles/main.dir/ui/src/generated/widgets_init.c.obj"
+},
+{
+  "directory": "C:/Users/20757/Desktop/lvgl_pc_simulator/build",
+  "command": "C:\\APP\\mingw\\bin\\gcc.exe -DLV_CONF_INCLUDE_SIMPLE @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\user\\link_list.c.obj -c C:\\Users\\20757\\Desktop\\lvgl_pc_simulator\\user\\link_list.c",
+  "file": "C:/Users/20757/Desktop/lvgl_pc_simulator/user/link_list.c",
+  "output": "CMakeFiles/main.dir/user/link_list.c.obj"
 }
 ]
