@@ -11,7 +11,6 @@
 #include <stdio.h>
 #include "gui_guider.h"
 #include "events_init.h"
-#include "widgets_init.h"
 #include "gui_guider_ui/src/custom/custom.h"
 
 void setup_scr_watch_scr(lv_ui *ui)

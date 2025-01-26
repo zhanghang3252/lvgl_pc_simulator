@@ -11,15 +11,12 @@
 #include <stdio.h>
 #include "gui_guider.h"
 #include "events_init.h"
-#include "widgets_init.h"
 #include "gui_guider_ui/src/custom/custom.h"
 
 
 
 void setup_scr_led_scr(lv_ui *ui)
 {
-    printf("setup_scr_led_scr\n");
-
     //Write codes led_scr
     ui->led_scr = lv_obj_create(NULL);
     lv_obj_set_size(ui->led_scr, 240, 280);

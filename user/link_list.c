@@ -38,7 +38,17 @@ LinkList *link_list_creat(int n){
     return head;//返回头链表
 }
 
-
+/*
+ *插入链表内容
+ * 输入:
+ * list：链表头文件
+ * id：链表ID
+ * lvgl_scr：lvgl屏幕结构体
+ * lvgl_scr_del：lvgl屏幕状态
+ * setup_scr：lvgl屏幕函数
+ * 输出:
+ * 无
+ */
 void link_list_change(LinkList *list,int id,lv_obj_t *lvgl_scr,bool lvgl_scr_del,ui_setup_scr_t setup_scr) {
     while(list->next!=NULL && list->id!=id) {
         list=list->next;

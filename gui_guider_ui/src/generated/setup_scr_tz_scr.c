@@ -11,14 +11,12 @@
 #include <stdio.h>
 #include "gui_guider.h"
 #include "events_init.h"
-#include "widgets_init.h"
 #include "gui_guider_ui/src/custom/custom.h"
 
 
 
 void setup_scr_tz_scr(lv_ui *ui)
 {
-    printf("setup_scr_tz_scr\n");
     //Write codes tz_scr
     ui->tz_scr = lv_obj_create(NULL);
     lv_obj_set_size(ui->tz_scr, 240, 280);
@@ -48,7 +46,7 @@ void setup_scr_tz_scr(lv_ui *ui)
     ui->tz_scr_label_message = lv_label_create(ui->tz_scr);
     lv_label_set_text(ui->tz_scr_label_message, "no message");
     lv_label_set_long_mode(ui->tz_scr_label_message, LV_LABEL_LONG_WRAP);
-    lv_obj_set_pos(ui->tz_scr_label_message, 53, 168);
+    lv_obj_set_pos(ui->tz_scr_label_message, 50, 168);
     lv_obj_set_size(ui->tz_scr_label_message, 145, 20);
 
     //Write style for tz_scr_label_message, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
