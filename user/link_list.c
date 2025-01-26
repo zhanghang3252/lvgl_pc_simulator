@@ -7,10 +7,10 @@
  * 返回头链表
  */
 LinkList *link_list_creat(int n){
-    LinkList *head, *node, *end,*head_temp;//定义头节点，普通节点，尾部节点
-    head = (LinkList*)malloc(sizeof(LinkList));//分配地址
-    end = (LinkList*)malloc(sizeof(LinkList));//分配地址
-    head_temp=head;
+    //定义头节点，尾部节点
+    LinkList *head = (LinkList *) malloc(sizeof(LinkList));//分配地址
+    LinkList *end = (LinkList *) malloc(sizeof(LinkList));//分配地址
+    LinkList *head_temp = head;
 
     head->id=0;//头链表id为0
     head->on=end;
@@ -18,15 +18,15 @@ LinkList *link_list_creat(int n){
     end->id=n+1;//尾链表id为最后一个
     end->next=head;//尾链表的下个链表尾头链表
 
-    if (n == 0) {
+    if (n == 0) {//如果n为0则把头尾链表相交
         end->on=head;
         head->next=end;
         return head;
     }
 
     for(int i = 1; i < n+1; i++) {
-        node = (LinkList*)malloc(sizeof(LinkList));//分配内存
-
+        //定义普通节点
+        LinkList *node = (LinkList *) malloc(sizeof(LinkList));//分配内存
         node->id=i;//分配ID
         node->on=head_temp;//设置第一个普通链表的上一个为头链表，第二个普通链表的头为上一个普通链表
         head_temp->next = node;//第一次为头链表为第一个普通链表，第二次则是上一个普通连表的下个链表为本次链表
@@ -40,11 +40,10 @@ LinkList *link_list_creat(int n){
 
 
 void link_list_change(LinkList *list,int id,lv_obj_t *lvgl_scr,bool lvgl_scr_del,ui_setup_scr_t setup_scr) {
-    LinkList *t = list;
-    while(t->next!=NULL && t->id!=id) {
-        t=t->next;
+    while(list->next!=NULL && list->id!=id) {
+        list=list->next;
     }
-    t->lvgl_scr=lvgl_scr;
-    t->lvgl_scr_del=lvgl_scr_del;
-    t->setup_scr=setup_scr;
+    list->lvgl_scr=lvgl_scr;
+    list->lvgl_scr_del=lvgl_scr_del;
+    list->setup_scr=setup_scr;
 }

@@ -36,10 +36,10 @@ void ui_load_scr_animation(lv_ui *ui, lv_obj_t ** new_scr, bool new_scr_del, boo
         lv_obj_clean(act_scr);
     }
     if (new_scr_del) {
-        setup_scr(ui);
+        //setup_scr(ui);//会重新绘制页面有bug
     }
     lv_scr_load_anim(*new_scr, anim_type, time, delay, auto_del);
-    *old_scr_del = auto_del;
+    //*old_scr_del = auto_del;
 }
 
 void ui_animation(void * var, int32_t duration, int32_t delay, int32_t start_value, int32_t end_value, lv_anim_path_cb_t path_cb,
@@ -72,7 +72,6 @@ void ui_animation(void * var, int32_t duration, int32_t delay, int32_t start_val
 
 void init_scr_del_flag(lv_ui *ui)
 {
-
     ui->timer_scr_del = true;
     ui->led_scr_del = true;
     ui->tz_scr_del = true;
@@ -83,5 +82,6 @@ void setup_ui(lv_ui *ui)
     init_scr_del_flag(ui);
     setup_scr_timer_scr(ui);
     setup_scr_led_scr(ui);
+    setup_scr_tz_scr(ui);
     lv_scr_load(ui->timer_scr);
 }

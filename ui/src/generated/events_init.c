@@ -38,12 +38,6 @@ static void timer_scr_event_handler (lv_event_t *e)
             lvgl_link_list=lvgl_link_list->on;
             break;
         }
-        case LV_DIR_BOTTOM:
-        {
-            lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.tz_scr, guider_ui.tz_scr_del, &guider_ui.timer_scr_del, setup_scr_tz_scr, LV_SCR_LOAD_ANIM_MOVE_BOTTOM, 200, 0, false, false);
-            break;
-        }
         default:
             break;
         }
@@ -81,12 +75,6 @@ static void led_scr_event_handler (lv_event_t *e)
             lvgl_link_list=lvgl_link_list->on;
             break;
         }
-        case LV_DIR_BOTTOM:
-        {
-            lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.tz_scr, guider_ui.tz_scr_del, &guider_ui.timer_scr_del, setup_scr_tz_scr, LV_SCR_LOAD_ANIM_MOVE_BOTTOM, 200, 0, false, false);
-            break;
-        }
         default:
             break;
         }
@@ -104,7 +92,7 @@ static void led_scr_btn_open_event_handler (lv_event_t *e)
     case LV_EVENT_CLICKED:
     {
         printf("OPEN LED\r\n");
-        lv_led_set_brightness(guider_ui.led_scr_led_1, 255);
+        lv_led_on(guider_ui.led_scr_led_1);
         break;
     }
     default:
@@ -119,7 +107,7 @@ static void led_scr_btn_close_event_handler (lv_event_t *e)
     case LV_EVENT_CLICKED:
     {
         printf("CLOSE LED\r\n");
-        lv_led_set_brightness(guider_ui.led_scr_led_1, 0);
+        lv_led_off(guider_ui.led_scr_led_1);
         break;
     }
     default:
@@ -142,18 +130,20 @@ static void tz_scr_event_handler (lv_event_t *e)
     {
         lv_dir_t dir = lv_indev_get_gesture_dir(lv_indev_get_act());
         switch(dir) {
-        case LV_DIR_TOP:
-        {
-            lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.timer_scr, guider_ui.timer_scr_del, &guider_ui.tz_scr_del, setup_scr_timer_scr, LV_SCR_LOAD_ANIM_MOVE_TOP, 200, 0, false, false);
-            break;
-        }
-        case LV_DIR_BOTTOM:
-        {
-            lv_indev_wait_release(lv_indev_get_act());
-            ui_load_scr_animation(&guider_ui, &guider_ui.timer_scr, guider_ui.timer_scr_del, &guider_ui.tz_scr_del, setup_scr_timer_scr, LV_SCR_LOAD_ANIM_MOVE_BOTTOM, 200, 0, false, false);
-            break;
-        }
+            case LV_DIR_LEFT:
+            {
+                lv_indev_wait_release(lv_indev_get_act());
+                ui_load_scr_animation(&guider_ui, &lvgl_link_list->next->lvgl_scr,lvgl_link_list->next->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->next->setup_scr, LV_SCR_LOAD_ANIM_OVER_LEFT, 200, 0, false, false);
+                lvgl_link_list=lvgl_link_list->next;
+                break;
+            }
+            case LV_DIR_RIGHT:
+            {
+                lv_indev_wait_release(lv_indev_get_act());
+                ui_load_scr_animation(&guider_ui, &lvgl_link_list->on->lvgl_scr,lvgl_link_list->on->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->on->setup_scr, LV_SCR_LOAD_ANIM_OVER_RIGHT, 200, 0, false, false);
+                lvgl_link_list=lvgl_link_list->on;
+                break;
+            }
         default:
             break;
         }
@@ -172,5 +162,7 @@ void events_init_tz_scr (lv_ui *ui)
 
 void events_init(lv_ui *ui)
 {
-
+    // events_init_led_scr(ui);
+    // events_init_tz_scr(ui);
+    // events_init_timer_scr(ui);
 }

@@ -21,6 +21,7 @@ int timer_scr_digital_clock_1_hour_value = 11;
 int timer_scr_digital_clock_1_sec_value = 50;
 void setup_scr_timer_scr(lv_ui *ui)
 {
+    printf("setup_scr_timer_scr\n");
     //Write codes timer_scr
     ui->timer_scr = lv_obj_create(NULL);
     lv_obj_set_size(ui->timer_scr, 240, 280);

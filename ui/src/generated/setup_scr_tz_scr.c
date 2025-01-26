@@ -18,6 +18,7 @@
 
 void setup_scr_tz_scr(lv_ui *ui)
 {
+    printf("setup_scr_tz_scr\n");
     //Write codes tz_scr
     ui->tz_scr = lv_obj_create(NULL);
     lv_obj_set_size(ui->tz_scr, 240, 280);
