@@ -44,8 +44,8 @@ void *lvgl_date_timer_f(void *arg) {
         pthread_mutex_lock(&lvgl_mutex);
         lv_dclock_set_text_fmt(guider_ui.timer_scr_digital_clock_1,"%2d:%2d:%2d",local_time->tm_hour,local_time->tm_min,local_time->tm_sec);
         lv_label_set_text_fmt(guider_ui.timer_scr_datetext_1,"%d/%d/%d",2000+(local_time->tm_year-100),local_time->tm_mon+1,local_time->tm_mday);
-        lv_analogclock_set_time(guider_ui.watch_scr_analog_clock_1,local_time->tm_hour,local_time->tm_min,local_time->tm_sec);
-
+        printf("time: %d:%d:%d\n",local_time->tm_hour,local_time->tm_min,local_time->tm_sec);
+        lv_analogclock_set_time(guider_ui.watch_scr_analog_clock_1,local_time->tm_hour%12,local_time->tm_min,local_time->tm_sec);
         pthread_mutex_unlock(&lvgl_mutex);
         sleep(1);
     }
