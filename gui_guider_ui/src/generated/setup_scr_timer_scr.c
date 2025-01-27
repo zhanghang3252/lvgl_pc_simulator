@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include "gui_guider.h"
 #include "events_init.h"
+#include "widgets_init.h"
 #include "gui_guider_ui/src/custom/custom.h"
 
 
@@ -35,6 +36,7 @@ void setup_scr_timer_scr(lv_ui *ui)
     lv_label_set_text(ui->timer_scr_datetext_1, "2023/07/31");
     lv_obj_set_style_text_align(ui->timer_scr_datetext_1, LV_TEXT_ALIGN_CENTER, 0);
     lv_obj_add_flag(ui->timer_scr_datetext_1, LV_OBJ_FLAG_CLICKABLE);
+    // lv_obj_add_event_cb(ui->timer_scr_datetext_1, timer_scr_datetext_1_event_handler, LV_EVENT_ALL, NULL);
     lv_obj_set_pos(ui->timer_scr_datetext_1, 6, 3);
     lv_obj_set_size(ui->timer_scr_datetext_1, 84, 23);
 

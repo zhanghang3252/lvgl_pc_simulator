@@ -17,7 +17,7 @@
 extern LinkList *lvgl_link_list;
 void hal_init(void);
 lv_ui guider_ui;
-pthread_t lvgl_tick,lvgl_date_timer,lvgl_power;//线程
+pthread_t lvgl_tick,lvgl_date_timer,lvgl_power,page_switch;//线程
 pthread_mutex_t lvgl_mutex;//线程互斥锁
 
 /*充电动画函数*/
@@ -46,12 +46,24 @@ void *lvgl_date_timer_f(void *arg) {
         pthread_mutex_lock(&lvgl_mutex);
         lv_dclock_set_text_fmt(guider_ui.timer_scr_digital_clock_1,"%2d:%2d:%2d",local_time->tm_hour,local_time->tm_min,local_time->tm_sec);
         lv_label_set_text_fmt(guider_ui.timer_scr_datetext_1,"%d/%d/%d",2000+(local_time->tm_year-100),local_time->tm_mon+1,local_time->tm_mday);
-        printf("time: %d:%d:%d\n",local_time->tm_hour,local_time->tm_min,local_time->tm_sec);
+        // printf("time: %d:%d:%d\n",local_time->tm_hour,local_time->tm_min,local_time->tm_sec);
         lv_analogclock_set_time(guider_ui.watch_scr_analog_clock_1,local_time->tm_hour%12,local_time->tm_min,local_time->tm_sec);
         pthread_mutex_unlock(&lvgl_mutex);
         sleep(1);
     }
 }
+
+/*页面切换测试线程函数*/
+void *lvgl_page_switch_f(void *arg) {
+    while (1) {
+        lv_indev_wait_release(lv_indev_get_act());
+        ui_load_scr_animation(&guider_ui, &lvgl_link_list->next->lvgl_scr, lvgl_link_list->next->lvgl_scr_del, &lvgl_link_list->lvgl_scr_del, lvgl_link_list->next->setup_scr, LV_SCR_LOAD_ANIM_MOVE_LEFT, 200, 0, false, false);
+        lvgl_link_list=lvgl_link_list->next;
+        sleep(1);
+    }
+}
+
+
 int main(void)
 {
     lv_init();
@@ -64,15 +76,17 @@ int main(void)
     events_init(&guider_ui);//事件初始化
     pthread_mutex_unlock(&lvgl_mutex);//释放锁
 
-    pthread_create(&lvgl_power,NULL,lvgl_power_f,NULL);//创建充电更新线程
-    pthread_create(&lvgl_date_timer,NULL,lvgl_date_timer_f,NULL);//创建日期时间更新线程
-
-    lvgl_link_list = link_list_creat(2);//创建4个循环链表
+    lvgl_link_list = link_list_creat(3);//创建4个循环链表
     link_list_change(lvgl_link_list,0,guider_ui.timer_scr,guider_ui.timer_scr_del,setup_scr_timer_scr);//插入链表内容
     link_list_change(lvgl_link_list,1,guider_ui.led_scr,guider_ui.led_scr_del,setup_scr_led_scr);//插入链表内容
     link_list_change(lvgl_link_list,2,guider_ui.tz_scr,guider_ui.tz_scr_del,setup_scr_tz_scr);//插入链表内容
     link_list_change(lvgl_link_list,3,guider_ui.watch_scr,guider_ui.watch_scr_del,setup_scr_watch_scr);//插入链表内容
+    link_list_change(lvgl_link_list,4,guider_ui.control_scr,guider_ui.control_scr_del,setup_scr_control_scr);//插入链表内容
 
+
+    pthread_create(&lvgl_power,NULL,lvgl_power_f,NULL);//创建充电更新线程
+    pthread_create(&lvgl_date_timer,NULL,lvgl_date_timer_f,NULL);//创建日期时间更新线程
+    // pthread_create(&page_switch,NULL,lvgl_page_switch_f,NULL);//创建页面切换测试线程
 
     while (1) {
         pthread_mutex_lock(&lvgl_mutex);//获取锁

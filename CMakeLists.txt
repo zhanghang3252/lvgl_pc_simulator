@@ -29,8 +29,7 @@ SET(CMAKE_CXX_FLAGS "-O3")
 
 find_package(SDL2 REQUIRED SDL2)
 include_directories(${SDL2_INCLUDE_DIRS})
-add_executable(main main.c mouse_cursor_icon.c hal_init.c ${SOURCES} ${INCLUDES}
-        )
+add_executable(main main.c mouse_cursor_icon.c hal_init.c ${SOURCES} ${INCLUDES})
 
 
 file(COPY SDL2.dll DESTINATION ${PROJECT_SOURCE_DIR}/bin)
