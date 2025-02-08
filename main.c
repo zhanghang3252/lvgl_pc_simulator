@@ -17,9 +17,10 @@
 extern LinkList *lvgl_link_list;
 void hal_init(void);
 lv_ui guider_ui;
-pthread_t lvgl_tick,lvgl_date_timer,lvgl_power,page_switch;//线程
+pthread_t lvgl_tick,lvgl_date_timer,lvgl_power,page_switch,uart_test;//线程
 pthread_mutex_t lvgl_mutex;//线程互斥锁
 
+char *uart_buffer;
 /*充电动画函数*/
 void *lvgl_power_f( void *arg ) {
     uint8_t power_value = 0;
@@ -63,7 +64,6 @@ void *lvgl_page_switch_f(void *arg) {
     }
 }
 
-
 int main(void)
 {
     lv_init();
@@ -76,13 +76,13 @@ int main(void)
     events_init(&guider_ui);//事件初始化
     pthread_mutex_unlock(&lvgl_mutex);//释放锁
 
-    lvgl_link_list = link_list_creat(3);//创建4个循环链表
+    lvgl_link_list = link_list_creat(6);//创建6个链表节点
     link_list_change(lvgl_link_list,0,guider_ui.timer_scr,guider_ui.timer_scr_del,setup_scr_timer_scr);//插入链表内容
     link_list_change(lvgl_link_list,1,guider_ui.led_scr,guider_ui.led_scr_del,setup_scr_led_scr);//插入链表内容
     link_list_change(lvgl_link_list,2,guider_ui.tz_scr,guider_ui.tz_scr_del,setup_scr_tz_scr);//插入链表内容
     link_list_change(lvgl_link_list,3,guider_ui.watch_scr,guider_ui.watch_scr_del,setup_scr_watch_scr);//插入链表内容
     link_list_change(lvgl_link_list,4,guider_ui.control_scr,guider_ui.control_scr_del,setup_scr_control_scr);//插入链表内容
-
+    link_list_change(lvgl_link_list,5,guider_ui.text_scr,guider_ui.text_scr_del,setup_scr_text_scr);//插入链表内容
 
     pthread_create(&lvgl_power,NULL,lvgl_power_f,NULL);//创建充电更新线程
     pthread_create(&lvgl_date_timer,NULL,lvgl_date_timer_f,NULL);//创建日期时间更新线程
@@ -93,6 +93,6 @@ int main(void)
         lv_timer_handler();
         lv_task_handler();
         pthread_mutex_unlock(&lvgl_mutex);//释放锁
-        usleep(1 * 1000);
+        usleep(5 * 1000);
     }
 }

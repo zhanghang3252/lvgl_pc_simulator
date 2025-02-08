@@ -48,6 +48,10 @@ typedef struct
 	lv_obj_t *control_scr_spinbox_1;
 	lv_obj_t *control_scr_spinbox_1_btn;
 	lv_obj_t *control_scr_spinbox_1_btn_minus;
+	lv_obj_t *text_scr;
+	bool text_scr_del;
+	lv_obj_t *text_scr_label_1;
+
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -75,6 +79,7 @@ void setup_scr_led_scr(lv_ui *ui);
 void setup_scr_tz_scr(lv_ui *ui);
 void setup_scr_watch_scr(lv_ui *ui);
 void setup_scr_control_scr(lv_ui *ui);
+void setup_scr_text_scr(lv_ui *ui);
 
 LV_IMG_DECLARE(_xs_alpha_50x50);
 LV_IMG_DECLARE(img_emoji_F617);

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.exe"
+			"path" : "C:/ZH/lvgl_pc_simulator/bin/main.exe"
 		},
 		{
-			"path" : "C:/Users/20757/Desktop/lvgl_pc_simulator/bin/main.pdb"
+			"path" : "C:/ZH/lvgl_pc_simulator/bin/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -80,7 +80,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/20757/Desktop/lvgl_pc_simulator"
+					"path" : "C:/ZH/lvgl_pc_simulator"
 				},
 				{
 					"backtrace" : 5,
@@ -397,7 +397,8 @@
 				296,
 				297,
 				298,
-				299
+				299,
+				300
 			]
 		}
 	],
@@ -738,14 +739,14 @@
 				296,
 				297,
 				298,
-				299
+				299,
+				300
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				300,
 				301,
 				302,
 				303,
@@ -1000,7 +1001,8 @@
 				552,
 				553,
 				554,
-				555
+				555,
+				556
 			]
 		}
 	],
@@ -1094,6 +1096,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "gui_guider_ui/src/generated/setup_scr_led_scr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gui_guider_ui/src/generated/setup_scr_text_scr.c",
 			"sourceGroupIndex" : 0
 		},
 		{

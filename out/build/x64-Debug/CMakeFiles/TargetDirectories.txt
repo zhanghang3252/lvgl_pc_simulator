@@ -1,0 +1,4 @@
+C:/ZH/lvgl_pc_simulator/out/build/x64-Debug/CMakeFiles/main.dir
+C:/ZH/lvgl_pc_simulator/out/build/x64-Debug/CMakeFiles/run.dir
+C:/ZH/lvgl_pc_simulator/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/ZH/lvgl_pc_simulator/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

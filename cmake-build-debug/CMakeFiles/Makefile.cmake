@@ -34,7 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/APP/mingw/cmake/sdl2-config.cmake"
   "C:/APP/mingw/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config-version.cmake"
   "C:/APP/mingw/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake"
-  "C:/Users/20757/Desktop/lvgl_pc_simulator/CMakeLists.txt"
+  "C:/ZH/lvgl_pc_simulator/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"

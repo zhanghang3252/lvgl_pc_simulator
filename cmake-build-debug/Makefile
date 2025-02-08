@@ -56,10 +56,10 @@ RM = "C:\APP\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\20757\Desktop\lvgl_pc_simulator
+CMAKE_SOURCE_DIR = C:\ZH\lvgl_pc_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug
+CMAKE_BINARY_DIR = C:\ZH\lvgl_pc_simulator\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug\CMakeFiles C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\ZH\lvgl_pc_simulator\cmake-build-debug\CMakeFiles C:\ZH\lvgl_pc_simulator\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\ZH\lvgl_pc_simulator\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -428,6 +428,30 @@ gui_guider_ui/src/generated/setup_scr_led_scr.s: gui_guider_ui/src/generated/set
 gui_guider_ui/src/generated/setup_scr_led_scr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/gui_guider_ui/src/generated/setup_scr_led_scr.c.s
 .PHONY : gui_guider_ui/src/generated/setup_scr_led_scr.c.s
+
+gui_guider_ui/src/generated/setup_scr_text_scr.obj: gui_guider_ui/src/generated/setup_scr_text_scr.c.obj
+.PHONY : gui_guider_ui/src/generated/setup_scr_text_scr.obj
+
+# target to build an object file
+gui_guider_ui/src/generated/setup_scr_text_scr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/gui_guider_ui/src/generated/setup_scr_text_scr.c.obj
+.PHONY : gui_guider_ui/src/generated/setup_scr_text_scr.c.obj
+
+gui_guider_ui/src/generated/setup_scr_text_scr.i: gui_guider_ui/src/generated/setup_scr_text_scr.c.i
+.PHONY : gui_guider_ui/src/generated/setup_scr_text_scr.i
+
+# target to preprocess a source file
+gui_guider_ui/src/generated/setup_scr_text_scr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/gui_guider_ui/src/generated/setup_scr_text_scr.c.i
+.PHONY : gui_guider_ui/src/generated/setup_scr_text_scr.c.i
+
+gui_guider_ui/src/generated/setup_scr_text_scr.s: gui_guider_ui/src/generated/setup_scr_text_scr.c.s
+.PHONY : gui_guider_ui/src/generated/setup_scr_text_scr.s
+
+# target to generate assembly for a file
+gui_guider_ui/src/generated/setup_scr_text_scr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/gui_guider_ui/src/generated/setup_scr_text_scr.c.s
+.PHONY : gui_guider_ui/src/generated/setup_scr_text_scr.c.s
 
 gui_guider_ui/src/generated/setup_scr_timer_scr.obj: gui_guider_ui/src/generated/setup_scr_timer_scr.c.obj
 .PHONY : gui_guider_ui/src/generated/setup_scr_timer_scr.obj
@@ -7387,6 +7411,9 @@ help:
 	@echo ... gui_guider_ui/src/generated/setup_scr_led_scr.obj
 	@echo ... gui_guider_ui/src/generated/setup_scr_led_scr.i
 	@echo ... gui_guider_ui/src/generated/setup_scr_led_scr.s
+	@echo ... gui_guider_ui/src/generated/setup_scr_text_scr.obj
+	@echo ... gui_guider_ui/src/generated/setup_scr_text_scr.i
+	@echo ... gui_guider_ui/src/generated/setup_scr_text_scr.s
 	@echo ... gui_guider_ui/src/generated/setup_scr_timer_scr.obj
 	@echo ... gui_guider_ui/src/generated/setup_scr_timer_scr.i
 	@echo ... gui_guider_ui/src/generated/setup_scr_timer_scr.s

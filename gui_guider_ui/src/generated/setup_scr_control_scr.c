@@ -80,7 +80,7 @@ void setup_scr_control_scr(lv_ui *ui)
 
     //Write codes control_scr_ddlist_1
     ui->control_scr_ddlist_1 = lv_dropdown_create(ui->control_scr);
-    lv_dropdown_set_options(ui->control_scr_ddlist_1, "list1\nlist2\nlist3");
+    lv_dropdown_set_options(ui->control_scr_ddlist_1, "list1\nlist2\nlist3\nlist4");
     lv_obj_set_pos(ui->control_scr_ddlist_1, 53, 80);
     lv_obj_set_size(ui->control_scr_ddlist_1, 130, 30);
 

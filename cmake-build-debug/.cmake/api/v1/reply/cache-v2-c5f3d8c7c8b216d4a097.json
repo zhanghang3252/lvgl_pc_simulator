@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/20757/Desktop/lvgl_pc_simulator/cmake-build-debug"
+			"value" : "c:/ZH/lvgl_pc_simulator/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/20757/Desktop/lvgl_pc_simulator/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/ZH/lvgl_pc_simulator/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/20757/Desktop/lvgl_pc_simulator"
+			"value" : "C:/ZH/lvgl_pc_simulator"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1307,7 +1307,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/20757/Desktop/lvgl_pc_simulator/cmake-build-debug"
+			"value" : "C:/ZH/lvgl_pc_simulator/cmake-build-debug"
 		},
 		{
 			"name" : "lvgl_IS_TOP_LEVEL",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/20757/Desktop/lvgl_pc_simulator"
+			"value" : "C:/ZH/lvgl_pc_simulator"
 		}
 	],
 	"kind" : "cache",

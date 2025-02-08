@@ -94,6 +94,7 @@ static void led_scr_btn_open_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
+
         lv_led_set_brightness(guider_ui.led_scr_led_1, 255);
         break;
     }
@@ -187,6 +188,7 @@ static void events_switch_page_handler (lv_event_t *e) {
             break;
     }
 }
+
 static void control_scr_spinbox_1_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -224,13 +226,14 @@ void events_init_all (lv_ui *ui) {
     lv_obj_add_event_cb(ui->tz_scr, events_switch_page_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->control_scr, events_switch_page_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->watch_scr, events_switch_page_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->text_scr, events_switch_page_handler, LV_EVENT_ALL, ui);
 
     //按钮切换事件
     lv_obj_add_event_cb(ui->led_scr_btn_open, led_scr_btn_open_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->led_scr_btn_close, led_scr_btn_close_event_handler, LV_EVENT_ALL, ui);
+
     //微调框数值变化事件
     lv_obj_add_event_cb(ui->control_scr_spinbox_1, control_scr_spinbox_1_event_handler, LV_EVENT_ALL, ui);
-
     lv_obj_add_event_cb(ui->control_scr_slider_1, control_scr_slider_1_event_handler, LV_EVENT_ALL, ui);
 
 }

@@ -21,7 +21,7 @@ file(GLOB_RECURSE SOURCES
     "gui_guider_ui/src/*.c"
     "gui_guider_ui/src/generated/*.c"
     "user/*.c"
-    
+    "gui_guider_ui/src/generated/setup_scr_text_scr.c"
 )
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

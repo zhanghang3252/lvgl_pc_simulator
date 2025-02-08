@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.c \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.c \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,5 +13,5 @@ CMakeFiles/main.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: \
  C:/APP/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_conf.h
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
+ C:/ZH/lvgl_pc_simulator/lv_conf.h

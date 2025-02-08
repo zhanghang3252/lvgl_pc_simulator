@@ -175,8 +175,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/20757/Desktop/lvgl_pc_simulator/cmake-build-debug",
-		"source" : "C:/Users/20757/Desktop/lvgl_pc_simulator"
+		"build" : "C:/ZH/lvgl_pc_simulator/cmake-build-debug",
+		"source" : "C:/ZH/lvgl_pc_simulator"
 	},
 	"version" : 
 	{

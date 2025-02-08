@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\extra\libs\qrcode\qrcodegen.c \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\extra\libs\qrcode\qrcodegen.c \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/limits.h \
@@ -18,16 +18,16 @@ CMakeFiles/main.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: \
  C:/APP/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/string.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\extra\libs\qrcode\qrcodegen.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\extra\libs\qrcode\qrcodegen.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_conf.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_mem.h
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
+ C:/ZH/lvgl_pc_simulator/lv_conf.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_mem.h

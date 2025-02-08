@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/lvgl/src/misc/lv_async.c.obj: \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_async.c \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_async.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_types.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_async.c \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_async.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_types.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,13 +13,13 @@ CMakeFiles/main.dir/lvgl/src/misc/lv_async.c.obj: \
  C:/APP/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_mem.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_conf.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_mem.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
+ C:/ZH/lvgl_pc_simulator/lv_conf.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/string.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_timer.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/hal/lv_hal_tick.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_timer.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/hal/lv_hal_tick.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h

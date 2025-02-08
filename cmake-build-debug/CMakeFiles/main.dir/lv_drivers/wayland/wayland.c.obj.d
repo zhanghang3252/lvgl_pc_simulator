@@ -1,8 +1,7 @@
 CMakeFiles/main.dir/lv_drivers/wayland/wayland.c.obj: \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lv_drivers\wayland\wayland.c \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lv_drivers\wayland\wayland.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_drv_conf.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_conf.h \
+ C:\ZH\lvgl_pc_simulator\lv_drivers\wayland\wayland.c \
+ C:\ZH\lvgl_pc_simulator\lv_drivers\wayland\wayland.h \
+ C:/ZH/lvgl_pc_simulator/lv_drv_conf.h C:/ZH/lvgl_pc_simulator/lv_conf.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/crtdefs.h \

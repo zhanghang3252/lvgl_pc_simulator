@@ -2,11 +2,14 @@
 /*
  *创建循环链表
  * 输入:
- * n：普通链表的个数，为0则只有头链表和尾链表，
+ * n：链表的个数，为0则只有头链表和尾链表，
  * 输出:
  * 返回头链表
  */
-LinkList *link_list_creat(int n){
+LinkList *link_list_creat(int n)
+{
+    n=n-2;//去掉头尾节点
+    if (n<0) return NULL;
     //定义头节点，尾部节点
     LinkList *head = (LinkList *) malloc(sizeof(LinkList));//分配地址
     LinkList *end = (LinkList *) malloc(sizeof(LinkList));//分配地址

@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/lvgl/src/misc/lv_txt.c.obj: \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_txt.c \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_txt.c \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -8,70 +8,70 @@ CMakeFiles/main.dir/lvgl/src/misc/lv_txt.c.obj: \
  C:/APP/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_txt.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_txt.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/crtdefs.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/corecrt.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_conf.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
+ C:/ZH/lvgl_pc_simulator/lv_conf.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_area.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/font/lv_font.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/font/lv_symbol_def.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_printf.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_area.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/font/lv_font.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/font/lv_symbol_def.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_printf.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/inttypes.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_types.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_txt_ap.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_style.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/font/lv_font.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_color.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_mem.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_types.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_txt_ap.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_style.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/font/lv_font.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_color.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_mem.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/string.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_math.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_anim.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_txt.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_bidi.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_style_gen.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_txt.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_img_decoder.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_img_buf.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_color.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_fs.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_img_cache.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_rect.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/sw/lv_draw_sw_gradient.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_color.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_style.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/sw/lv_draw_sw_dither.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/core/lv_obj_pos.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_label.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_bidi.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_img.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_line.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_triangle.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_arc.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_mask.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_math.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_transform.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/draw/lv_draw_layer.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_math.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_log.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_mem.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\misc\lv_assert.h
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_math.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_anim.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_txt.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_bidi.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_style_gen.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_txt.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_img_decoder.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_img_buf.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_color.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_fs.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_img_cache.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_rect.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/sw/lv_draw_sw_gradient.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_color.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_style.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/sw/lv_draw_sw_dither.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/core/lv_obj_pos.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_label.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_bidi.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_img.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_line.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_triangle.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_arc.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_mask.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_math.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_transform.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/draw/lv_draw_layer.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_math.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_log.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_mem.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\misc\lv_assert.h

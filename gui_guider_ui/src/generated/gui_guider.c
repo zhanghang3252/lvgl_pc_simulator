@@ -39,7 +39,7 @@ void ui_load_scr_animation(lv_ui *ui, lv_obj_t ** new_scr, bool new_scr_del, boo
         // setup_scr(ui);
     }
     lv_scr_load_anim(*new_scr, anim_type, time, delay, auto_del);
-    // *old_scr_del = auto_del;
+     *old_scr_del = auto_del;
 }
 
 void ui_animation(void * var, int32_t duration, int32_t delay, int32_t start_value, int32_t end_value, lv_anim_path_cb_t path_cb,
@@ -78,6 +78,7 @@ void init_scr_del_flag(lv_ui *ui)
     ui->tz_scr_del = true;
     ui->watch_scr_del = true;
     ui->control_scr_del = true;
+    ui->text_scr_del = true;
 }
 
 void setup_ui(lv_ui *ui)
@@ -88,5 +89,6 @@ void setup_ui(lv_ui *ui)
     setup_scr_watch_scr(ui);
     setup_scr_led_scr(ui);
     setup_scr_tz_scr(ui);
+    setup_scr_text_scr(ui);
     lv_scr_load(ui->timer_scr);
 }

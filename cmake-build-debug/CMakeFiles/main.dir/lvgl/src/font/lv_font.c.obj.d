@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/lvgl/src/font/lv_font.c.obj: \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\font\lv_font.c \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\font\lv_font.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\font\lv_font.c \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\font\lv_font.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,17 +13,17 @@ CMakeFiles/main.dir/lvgl/src/font/lv_font.c.obj: \
  C:/APP/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lv_conf.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_kconfig.h \
+ C:/ZH/lvgl_pc_simulator/lv_conf.h \
  C:/APP/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:\Users\20757\Desktop\lvgl_pc_simulator\lvgl\src\font\lv_symbol_def.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_utils.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
- C:/Users/20757/Desktop/lvgl_pc_simulator/lvgl/src/misc/lv_mem.h \
+ C:\ZH\lvgl_pc_simulator\lvgl\src\font\lv_symbol_def.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_area.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/lv_conf_internal.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_utils.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_types.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_assert.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_log.h \
+ C:/ZH/lvgl_pc_simulator/lvgl/src/misc/lv_mem.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/string.h \
  C:/APP/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h

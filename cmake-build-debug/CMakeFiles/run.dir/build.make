@@ -52,10 +52,10 @@ RM = "C:\APP\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\20757\Desktop\lvgl_pc_simulator
+CMAKE_SOURCE_DIR = C:\ZH\lvgl_pc_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug
+CMAKE_BINARY_DIR = C:\ZH\lvgl_pc_simulator\cmake-build-debug
 
 # Utility rule file for run.
 
@@ -66,7 +66,7 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run:
-	C:\Users\20757\Desktop\lvgl_pc_simulator\bin\main
+	C:\ZH\lvgl_pc_simulator\bin\main
 
 run: CMakeFiles/run
 run: CMakeFiles/run.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\20757\Desktop\lvgl_pc_simulator C:\Users\20757\Desktop\lvgl_pc_simulator C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug C:\Users\20757\Desktop\lvgl_pc_simulator\cmake-build-debug\CMakeFiles\run.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\ZH\lvgl_pc_simulator C:\ZH\lvgl_pc_simulator C:\ZH\lvgl_pc_simulator\cmake-build-debug C:\ZH\lvgl_pc_simulator\cmake-build-debug C:\ZH\lvgl_pc_simulator\cmake-build-debug\CMakeFiles\run.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run.dir/depend
 
